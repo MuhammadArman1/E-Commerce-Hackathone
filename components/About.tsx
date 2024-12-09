@@ -41,7 +41,7 @@ const About: React.FC = () => {
           </div>
           <div className="bg-[#F9F9F9] p-6 rounded-lg text-center shadow-sm hover:shadow-md">
             <h4 className="text-lg font-semibold mb-2">Unbeatable prices</h4>
-            <p>For our materials and quality you won't find better prices anywhere.</p>
+            <p>For our materials and quality you won&apos;t find better prices anywhere.</p>
           </div>
           <div className="bg-[#F9F9F9] p-6 rounded-lg text-center shadow-sm hover:shadow-md">
             <h4 className="text-lg font-semibold mb-2">Recycled packaging</h4>
