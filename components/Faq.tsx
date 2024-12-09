@@ -7,11 +7,11 @@ interface FAQItem {
 }
 
 const FAQ: React.FC = () => {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  // const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
-  const toggleFAQ = (index: number) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
+  // const toggleFAQ = (index: number) => {
+  //   setActiveIndex(activeIndex === index ? null : index);
+  // };
 
   const faqItems: FAQItem[] = [
     { question: "What types of chairs do you offer?", answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem?" },
@@ -33,7 +33,7 @@ const FAQ: React.FC = () => {
           <div key={index} className="bg-[#F7F7F7] rounded-lg cursor-pointer p-6 shadow-sm hover:shadow-md transition-shadow duration-200 w-[648px] h-[170px]">
             <div className="flex justify-between items-center cursor-pointer">
               <h3 className="font-semibold text-lg">{item.question}</h3>
-              <span className="text-xl font-bold">{activeIndex === index ? "-" : "+"}</span>
+              <span className="text-xl font-bold">+</span>
             </div>
             <p className="mt-4 text-gray-600 text-base leading-relaxed">{item.answer}</p>
           </div>
