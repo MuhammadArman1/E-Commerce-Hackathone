@@ -32,3 +32,10 @@ li:hover {
   margin-left: 29px;
   color: gray;
 }
+.mn{
+  display: flex;
+  align-items: center;
+}
+.cp{
+  margin-right: 50px;
+}

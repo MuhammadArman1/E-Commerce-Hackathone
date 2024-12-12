@@ -4,17 +4,15 @@ import Image from 'next/image';
 const Hero: React.FC = () => {
   return (
     <div className='flex justify-center flex-col items-center'>
-    <section className="bg-[#F0F2F3] flex items-center justify-between w-[1200px] h-[680px] rounded-bl-[50px] px-20">
+    <section className="bg-[#F0F2F3] flex items-center justify-between w-[1200px] h-[680px] rounded-bl-[50px] ">
       {/* Text Section */}
-      <div className='w-2/4 '>
+      <div className='pl-20 w-[557px]'>
         <p className="text-lg text-gray-500">WELCOME TO CHAIRY</p>
-        <h1 className="text-6xl  font-bold text-gray-800 my-4">Best Furniture <br /> Collection For Your Interior.</h1>
+        <h1 className="text-6xl  font-bold text-gray-800 ">Best Furniture Collection For Your <br /> Interior.</h1>
         <button className="bg-[#58B4BF] text-white py-4 px-8 rounded-xl mt-8 text-lg font-medium hover:bg-teal-600 transition">Shop Now →</button>
       </div>
       {/* Image Section */}
-      <div className='w-2/4'>
-        <Image src={"/BG.png"} alt="chair" width={900} height={"900"}></Image>
-      </div>
+        <Image src={"/BG.png"} alt="chair" width={800} height={900} className=''></Image>
     </section>
 
     <div className='flex items-center justify-center gap-20 h-60'>

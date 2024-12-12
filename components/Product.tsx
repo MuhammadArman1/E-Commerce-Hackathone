@@ -31,9 +31,9 @@ type ProductCardProps = { product: Product };
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
-    <div className="w-[312px] h-[400px] rounded-lg ">
+    <div className="w-[300px] h-[400px] rounded-lg ">
       {/* Product Image */}
-      <div className="relative w-[312px] h-[312px] mb-4">
+      <div className="relative w-[300px] h-[300px] mb-4">
         <Image
           src={product.imageUrl}
           alt={product.name}
@@ -60,12 +60,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
       {/* Tag */}
       {product.tag && (
-        <span className=" spn text-xs bg-teal-500 text-white px-4 py-2 rounded-lg relative bottom-[360px] ml-4">
+        <span className=" spn text-xs bg-teal-500 text-white px-4 py-2 rounded-lg relative bottom-[350px] ml-4">
           {product.tag}
         </span>
       )}
        {product.status && (
-        <span className=" spn text-xs bg-[#F58138] text-white px-4 py-2 rounded-lg relative bottom-[360px] ml-4">
+        <span className=" spn text-xs bg-[#F58138] text-white px-4 py-2 rounded-lg relative bottom-[350px] ml-4">
           {product.status}
         </span>
       )}
@@ -78,7 +78,7 @@ export default function Product() {
     <div>
       <div className="flex flex-col items-center">
       <h1 className="text-3xl font-bold py-16 relative right-[600px]">All Products</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         {/* <Link href="/Productpage"> */}
           {products.map((product, index) => (
             <div key={index}>  <Link href="/Productpage">
@@ -94,20 +94,19 @@ export default function Product() {
 
     
       <div className="h-[754px] bg-[#F3F4F4] mt-32 flex justify-center items-center flex-col">
-        <h1 className="text-[50px] font-semibold">Or Subscribe To The Newsletter</h1>
+        <h1 className="text-5xl font-semibold">Or Subscribe To The Newsletter</h1>
         <div className="flex justify-between flex-row gap-10 h-8 mt-20">
-            <input type="text" placeholder="Email Address..." className=" inp w-[643px] px-4 pb-5"/>
+            <input type="text" placeholder="Email Address..." className=" inp w-[643px] px-4 pb-2"/>
             <button className="button px-3 pb-1">SUBMIT</button>
         </div>
-       <h1 className="mt-20 text-[50px] font-semibold">Follow Products And Discounts On Instagram</h1>
-       <div className="flex rounded gap-10 items-center justify-center mt-14">
+       <h1 className="mt-20 text-5xl font-semibold">Follow Products And Discounts On Instagram</h1>
+       <div className="flex rounded gap-6 items-center justify-center mt-14">
         <Image src={"/product img5.png"} alt="product" width={186} height={186}></Image>
         <Image src={"/product img8.png"} alt="product" width={186} height={186}></Image>
         <Image src={"/product img2.png"} alt="product" width={186} height={186}></Image>
         <Image src={"/product img.png"} alt="product" width={186} height={186}></Image>
         <Image src={"/product img3.png"} alt="product" width={186} height={186}></Image>
         <Image src={"/product img9.png"} alt="product" width={186} height={186}></Image>
-
        </div>
     </div>
     </div>

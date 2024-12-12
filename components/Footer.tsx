@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-white text-gray-700 shadow-sm "><hr />
       {/* Main Content */}
-      <div className="container mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto px-28 py-12 grid grid-cols-1 lg:grid-cols-4">
         {/* Logo Section */}
         <div>
           <div className="flex items-center gap-4">
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Category Section */}
-        <div>
+        <div className="ml-20">
             <h4 className="text-lg text-[#9A9CAA] font-semibold mb-4">CATEGORY</h4>
             <ul className="space-y-2 cursor-pointer">
                <li>Sofa</li>
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="bg-white text-gray-600 py-4"><hr />
+      <div className="bg-white text-gray-600 py-2"><hr />
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between mt-2">
           <p>&copy; {new Date().getFullYear()} - Blogy - Designed & Developed by <a href="#" className="text-teal-500 hover:underline">Zakirsoft</
             a></p>

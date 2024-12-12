@@ -4,9 +4,9 @@ import Image from 'next/image';
 const Cart: React.FC = () => {
   return (
     <div>
-      <div className="flex justify-around p-5 font-sans my-12">
+      <div className="flex justify-around p-5 font-sans my-14">
         {/* Bag Section */}
-        <div className=" w-[773px]">
+        <div className=" w-[650px]">
           <h2 className="mb-5 text-3xl font-semibold">Bag</h2>
 
           {/* First Item */}
@@ -30,7 +30,7 @@ const Cart: React.FC = () => {
                 <button className="ml-7 bg-none border-none ">🗑</button>
               </div>
             </div>
-            <p>MRP: $99</p>
+            <p className='cp'>MRP: $99</p>
           </div>
 
           {/* Second Item */}
@@ -54,12 +54,12 @@ const Cart: React.FC = () => {
                 <button className="bg-none border-none ml-7">🗑</button>
               </div>
             </div>
-            <p>MRP: $99</p>
+            <p className='cp'>MRP: $99</p>
           </div>
         </div>
 
         {/* Summary Section */}
-        <div className="w-[350px]">
+        <div className="w-[250px]">
           <h2 className="mb-5 text-3xl font-semibold">Summary</h2>
           <div className="my-5 flex justify-between">
             <p>Subtotal</p>
@@ -75,7 +75,7 @@ const Cart: React.FC = () => {
             <p>$198.00</p>
           </div>
           <hr />
-          <button className="w-[334px] h-14 bg-[#4EA0AE] text-white border-none mt-8 rounded-full cursor-pointer">
+          <button className="w-[250px] h-14 bg-[#4EA0AE] text-white border-none mt-8 rounded-full cursor-pointer">
             Member Checkout
           </button>
         </div>

@@ -190,8 +190,8 @@ export default function HomeProduct1() {
       </div>
 
       <section className="mb-16">
-      <h2 className="text-3xl font-bold mt-10 text-start px-52">Top Categories</h2>
-      <div className="flex justify-center gap-12 my-32">
+      <h2 className="text-3xl font-bold mt-16 text-start px-52">Top Categories</h2>
+      <div className="flex justify-center gap-12 my-20">
         {/* Wing Chair */}
         <div className="text-center ">
           <div className="relative mx-auto w-[350px] h-[350px] ">
@@ -248,13 +248,13 @@ export default function HomeProduct1() {
 
       {/* Explore New Styles Section */}
       <section className="mb-16">
-      <h2 className="relative right-[700px] bottom-[450px]  transform -rotate-90 text-4xl font-bold text-gray-800">
+      <h2 className="relative right-[600px] bottom-[270px]  transform -rotate-90 text-3xl font-bold text-gray-800">
     Explore New and Popular Styles
   </h2>
       <div className="flex justify-center gap-5">
         {/* Large Featured Image */}
         <div>
-        <div className="relative col-span-1 lg:col-span-2 row-span-2 w-[648px] h-[665px] mx-auto">
+        <div className="relative col-span-1 lg:col-span-2 row-span-2 w-[548px] h-[565px] mx-auto">
           <Image
             src={"/product img3.png"}
             alt="Orange Chair"
@@ -266,7 +266,7 @@ export default function HomeProduct1() {
         </div>
         {/* Smaller Grid Items */}
         <div className="grid grid-cols-2 gap-5">
-        <div className="relative w-[312px] h-[312px]">
+        <div className="relative w-[270px] h-[270px]">
           <Image
             src={"/product img4.png"}
             alt="White Chair 1"
@@ -275,7 +275,7 @@ export default function HomeProduct1() {
             className="rounded-lg"
           />
         </div>
-        <div className="relative w-[312px] h-[312px]">
+        <div className="relative w-[270px] h-[270px]">
           <Image
             src={"/product img.png"}
             alt="White Chair 2"
@@ -284,7 +284,7 @@ export default function HomeProduct1() {
             className="rounded-lg"
           />
         </div>
-        <div className="relative w-[312px] h-[312px]">
+        <div className="relative w-[270px] h-[270px]">
           <Image
             src={"/product img6.png"}
             alt="Gray Chair"
@@ -293,7 +293,7 @@ export default function HomeProduct1() {
             className="rounded-lg"
           />
         </div>
-        <div className="relative w-[312px] h-[312px]">
+        <div className="relative w-[270px] h-[270px]">
           <Image
             src={"/product img.png"}
             alt="White Chair 3"
@@ -316,7 +316,7 @@ export function HomeProduct2() {
         <h1 className="text-3xl font-bold text-center py-16">
           Our Products
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {products.slice(0, 8).map((product) => (
             <Link href="/Productpage" key={product.id}>
               <ProductCard product={product} />

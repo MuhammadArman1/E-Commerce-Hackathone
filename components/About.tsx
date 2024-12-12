@@ -4,8 +4,8 @@ const About: React.FC = () => {
   return (
     <div className="px-6 py-10 max-w-7xl mx-auto">
       {/* About Section */}
-      <div className="flex gap-6 items-center">
-        <div className="bg-[#387580] text-white p-20 shadow-lg w-[672px] h-[478px]">
+      <div className="flex gap-6 items-center justify-center">
+        <div className="bg-[#387580] text-white p-20 shadow-lg w-[572px] h-[478px]">
           <h2 className="text-3xl font-bold mb-4">About Us - Comforty</h2>
           <p className="text-lg mb-6">
             At Comforty, we believe that the right chair can transform your space and elevate your comfort. Specializing in ergonomic design, premium materials, and modern aesthetics, we craft chairs that seamlessly blend style with functionality.
@@ -14,13 +14,12 @@ const About: React.FC = () => {
             View collection
           </button>
         </div>
-        <div className="w-[619px] h-[478px] relative">
+        <div className="w-[550px] h-[478px] relative">
           <Image
             src="/product%20img.png"  // Corrected path with URL encoding for space
             alt="About Us"
             layout="fill"
             objectFit="cover"
-            className="rounded-lg"
           />
         </div>
       </div>

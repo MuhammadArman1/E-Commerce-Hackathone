@@ -1,14 +1,24 @@
-"use client";
-
-import { FC } from "react";
+"use client"
+import React, { useState } from "react";
 import Link from "next/link";
-import 'boxicons/css/boxicons.min.css';
 
-const Navbar: FC = () => {
+export default function Navbar() {
+  const [isNavActive, setIsNavActive] = useState(false);
+
+  const toggleNav = () => {
+    setIsNavActive((prev) => !prev);
+  };
+
   return (
     <nav className="flex justify-center items-center h-[74px] shadow-sm bg-white gap-[39rem] border-b">
+      {/* Hamburger Menu */}
+      <div className="hamburger" id="hamburger" onClick={toggleNav}>
+        <i className="bx bx-menu">fgdfsbvfdsgs</i>
+        <i className="x bx bx-x"></i>
+      </div>
+
       {/* Navigation Links */}
-      <ul className="flex space-x-8 text-base font-medium gap-3 cursor-pointer">
+      <ul className={`flex space-x-8 text-base font-medium gap-3 ${isNavActive ? "active" : ""}`}>
         <li>
           <Link href="/">Home</Link>
         </li>
@@ -34,6 +44,4 @@ const Navbar: FC = () => {
       </div>
     </nav>
   );
-};
-
-export default Navbar;
+}

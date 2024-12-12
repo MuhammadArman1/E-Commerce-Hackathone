@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
         {/* Contact Details */}
         <div className="space-y-8">
           <div className="flex items-start space-x-4">
-            <Image src="/locationicon.png" width={30} height={30} alt="Location Icon" />
+            <Image src="/locationicon.png" width={25} height={25} alt="Location Icon" />
             <div>
               <h3 className="font-semibold text-xl">Address</h3>
               <p className="text-gray-600">
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
             </div>
           </div>
           <div className="flex items-start space-x-4">
-            <Image src="/phoneicon.png" width={30} height={30} alt="Phone Icon" />
+            <Image src="/phoneicon.png" width={20} height={20} alt="Phone Icon" />
             <div>
               <h3 className="font-semibold text-xl">Phone</h3>
               <p className="text-gray-600">Mobile: (+84) 546-6789</p>
@@ -100,7 +100,7 @@ const Contact: React.FC = () => {
       </div>
 
       {/* Features Section */}
-      <div className="flex justify-evenly items-center gap-16 w-[1320px] h-[270px] bg-[#F4F4F4] relative left-96">
+      <div className="flex justify-evenly items-center gap-16 w-[1300px] h-[270px] bg-[#F4F4F4] relative left-[120px]">
         <div className="flex flex-row gap-4 items-center">
           <Image src="/trophy 1.png" width={50} height={50} alt="High Quality" />
           <h4 className="text-lg font-semibold mt-2">
@@ -114,7 +114,7 @@ const Contact: React.FC = () => {
           </h4>
         </div>
         <div className="flex flex-col items-center">
-          <Image src="/Frame 4.png" width={100} height={100} alt="Feature Image" />
+          <Image src="/Frame 4.png" width={200} height={200} alt="Feature Image" />
         </div>
       </div>
     </div>
