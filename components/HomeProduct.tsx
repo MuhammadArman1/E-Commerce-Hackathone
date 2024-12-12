@@ -126,9 +126,9 @@ type ProductCardProps = { product: Product };
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
-    <div className="w-[312px] h-[400px] rounded-lg ">
+    <div className="w-[300px] h-[377px] rounded-lg ">
       {/* Product Image */}
-      <div className="relative w-[312px] h-[312px] mb-4">
+      <div className="relative w-[300px] h-[300px] mb-4">
         <Image
           src={product.imageUrl}
           alt={product.name}
@@ -160,12 +160,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
       {/* Tag */}
       {product.tag && (
-        <span className=" spn text-xs bg-teal-500 text-white px-4 py-2 rounded-lg relative bottom-[360px] ml-4">
+        <span className=" spn text-xs bg-teal-500 text-white px-4 py-2 rounded-lg relative bottom-[350px] ml-4">
           {product.tag}
         </span>
       )}
       {product.status && (
-        <span className=" spn text-xs bg-[#F58138] text-white px-4 py-2 rounded-lg relative bottom-[360px] ml-4">
+        <span className=" spn text-xs bg-[#F58138] text-white px-4 py-2 rounded-lg relative bottom-[350px] ml-4">
           {product.status}
         </span>
       )}
@@ -177,10 +177,10 @@ export default function HomeProduct1() {
   return (
     <div>
       <div className="flex flex-col items-center">
-        <h1 className="text-3xl font-bold py-16 relative right-[600px]">
+        <h1 className="text-3xl font-bold py-16 relative right-[470px]">
           Featured products
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
           {products.slice(0, 4).map((product) => (
             <Link href="/Productpage" key={product.id}>
               <ProductCard product={product} />
@@ -190,11 +190,11 @@ export default function HomeProduct1() {
       </div>
 
       <section className="mb-16">
-      <h2 className="text-3xl font-bold mt-10 text-start px-80">Top Categories</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 px-72 my-32">
+      <h2 className="text-3xl font-bold mt-10 text-start px-52">Top Categories</h2>
+      <div className="flex justify-center gap-12 my-32">
         {/* Wing Chair */}
-        <div className="text-center">
-          <div className="relative w-[424px] h-[424px] mx-auto">
+        <div className="text-center ">
+          <div className="relative mx-auto w-[350px] h-[350px] ">
             <Image
               src={"/Product img8.png"}
               alt="Wing Chair"
@@ -203,7 +203,7 @@ export default function HomeProduct1() {
               className="rounded-lg"
             />
           </div>
-          <div className="relative bottom-20 bg-black opacity-70 text-white mx-[44px] h-[85px] flex flex-col items-center">
+          <div className="relative bottom-20 bg-black opacity-70 text-white  h-[85px] flex flex-col items-center">
              <h3 className="text-lg font-semibold mt-4">Wing Chair</h3>
              <p className="text-gray-400">2,041 Products</p>
           </div>
@@ -212,7 +212,7 @@ export default function HomeProduct1() {
 
         {/* Wooden Chair */}
         <div className="text-center">
-          <div className="relative w-[424px] h-[424px] mx-auto">
+          <div className="relative w-[350px] h-[350px]  mx-auto">
             <Image
               src={"/product img4.png"}
               alt="Wooden Chair"
@@ -221,7 +221,7 @@ export default function HomeProduct1() {
               className="rounded-lg"
             />
           </div>
-          <div className="relative bottom-20 bg-black opacity-70 text-white mx-[44px] h-[85px] flex flex-col items-center">
+          <div className="relative bottom-20 bg-black opacity-70 text-white h-[85px] flex flex-col items-center">
              <h3 className="text-lg font-semibold mt-4">Wooden Chair</h3>
              <p className="text-gray-400">157 Products</p>
           </div>
@@ -229,7 +229,7 @@ export default function HomeProduct1() {
 
         {/* Desk Chair */}
         <div className="text-center">
-          <div className="relative w-[424px] h-[424px] mx-auto">
+          <div className="relative w-[350px] h-[350px]  mx-auto">
             <Image
               src={"/product img9.png"}
               alt="Desk Chair"
@@ -238,7 +238,7 @@ export default function HomeProduct1() {
               className="rounded-lg"
             />
           </div>
-          <div className="relative bottom-20 bg-black opacity-70 text-white mx-[44px] h-[85px] flex flex-col items-center">
+          <div className="relative bottom-20 bg-black opacity-70 text-white  h-[85px] flex flex-col items-center">
              <h3 className="text-lg font-semibold mt-4">Desk Chair</h3>
              <p className="text-gray-400">154 Products</p>
           </div>
@@ -251,7 +251,7 @@ export default function HomeProduct1() {
       <h2 className="relative right-[700px] bottom-[450px]  transform -rotate-90 text-4xl font-bold text-gray-800">
     Explore New and Popular Styles
   </h2>
-      <div className="flex justify-center gap-8">
+      <div className="flex justify-center gap-5">
         {/* Large Featured Image */}
         <div>
         <div className="relative col-span-1 lg:col-span-2 row-span-2 w-[648px] h-[665px] mx-auto">
@@ -265,7 +265,7 @@ export default function HomeProduct1() {
         </div>
         </div>
         {/* Smaller Grid Items */}
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-2 gap-5">
         <div className="relative w-[312px] h-[312px]">
           <Image
             src={"/product img4.png"}

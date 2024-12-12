@@ -6,7 +6,7 @@ import 'boxicons/css/boxicons.min.css';
 
 const Navbar: FC = () => {
   return (
-    <nav className="flex justify-between items-center h-[74px] shadow-sm bg-white px-96 border-b">
+    <nav className="flex justify-center items-center h-[74px] shadow-sm bg-white gap-[39rem] border-b">
       {/* Navigation Links */}
       <ul className="flex space-x-8 text-base font-medium gap-3 cursor-pointer">
         <li>

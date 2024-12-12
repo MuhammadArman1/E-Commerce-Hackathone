@@ -6,7 +6,7 @@ interface NavbarProps {
   
   const MiddleNavbar: React.FC<NavbarProps> = ({ cartCount }) => {
     return (
-      <nav className="flex justify-between items-center h-24 bg-gray-100 px-96 py-2 shadow-sm">
+      <nav className="flex justify-center items-center h-[84px] gap-[54rem] bg-gray-100  py-2 shadow-sm">
         {/* left */}
         <div className="flex items-center space-x-2">
           <div className=" p-2">
