@@ -39,3 +39,74 @@ li:hover {
 .cp{
   margin-right: 50px;
 }
+
+@media (max-width: 600px){
+  footer{
+    width: 600px;
+  }
+  .footer1-des{
+    display: flex;
+    gap: 200px;
+    padding: 40px 0px;
+    margin-right: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer1{
+    margin-left: 10px;
+  }
+  .hpi1{
+    display: none;
+  }
+  .hp1{
+    display: contents;
+  }
+  .hph1{
+    margin-bottom: 40px;
+  }
+  .hp-des{
+    position: relative;
+    left: 125px;
+    width: 350px;
+  }
+  .hci{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+  }
+  .hci1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .hci2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .hdiv1{
+    width: 500px;
+  }
+  .hdes{
+    width: 50%;
+    margin-left: 40px;
+  }
+  .hdiv1 > .hi{
+    display: none;
+  }
+  .mn{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+}

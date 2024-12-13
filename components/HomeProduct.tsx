@@ -190,8 +190,8 @@ export default function HomeProduct1() {
       </div>
 
       <section className="mb-16">
-      <h2 className="text-3xl font-bold mt-16 text-start px-52">Top Categories</h2>
-      <div className="flex justify-center gap-12 my-20">
+      <h2 className="hph1 text-3xl font-bold mt-16 text-start px-52">Top Categories</h2>
+      <div className="hp1 flex justify-center gap-12 my-20">
         {/* Wing Chair */}
         <div className="text-center ">
           <div className="relative mx-auto w-[350px] h-[350px] ">
@@ -203,7 +203,7 @@ export default function HomeProduct1() {
               className="rounded-lg"
             />
           </div>
-          <div className="relative bottom-20 bg-black opacity-70 text-white  h-[85px] flex flex-col items-center">
+          <div className="hp-des relative bottom-20 bg-black opacity-70 text-white  h-[85px] flex flex-col items-center">
              <h3 className="text-lg font-semibold mt-4">Wing Chair</h3>
              <p className="text-gray-400">2,041 Products</p>
           </div>
@@ -221,7 +221,7 @@ export default function HomeProduct1() {
               className="rounded-lg"
             />
           </div>
-          <div className="relative bottom-20 bg-black opacity-70 text-white h-[85px] flex flex-col items-center">
+          <div className="hp-des relative bottom-20 bg-black opacity-70 text-white h-[85px] flex flex-col items-center">
              <h3 className="text-lg font-semibold mt-4">Wooden Chair</h3>
              <p className="text-gray-400">157 Products</p>
           </div>
@@ -238,7 +238,7 @@ export default function HomeProduct1() {
               className="rounded-lg"
             />
           </div>
-          <div className="relative bottom-20 bg-black opacity-70 text-white  h-[85px] flex flex-col items-center">
+          <div className="hp-des relative bottom-20 bg-black opacity-70 text-white  h-[85px] flex flex-col items-center">
              <h3 className="text-lg font-semibold mt-4">Desk Chair</h3>
              <p className="text-gray-400">154 Products</p>
           </div>
@@ -247,7 +247,7 @@ export default function HomeProduct1() {
     </section>
 
       {/* Explore New Styles Section */}
-      <section className="mb-16">
+      <section className="hpi1 mb-16">
       <h2 className="relative right-[600px] bottom-[270px]  transform -rotate-90 text-3xl font-bold text-gray-800">
     Explore New and Popular Styles
   </h2>
