@@ -16,8 +16,11 @@ export default function Navbar() {
       <li>
         <Link href="/Product">Product</Link>
       </li>
-      <li>
+      <li id="contact2">
         <Link href="/">Pages</Link>
+      </li>
+      <li id="contact1">
+        <Link href="/contact">Contact</Link>
       </li>
       <li>
         <Link href="/About">About</Link>
@@ -25,7 +28,7 @@ export default function Navbar() {
     </ul>
 
     {/* Contact Information */}
-    <div className="text-base font-medium text-gray-500">
+    <div className="text-base font-medium text-gray-500 " id="contact2">
       <Link href="/Contact">
         Contact: <span className="text-black">(808) 555-0111</span>
       </Link>

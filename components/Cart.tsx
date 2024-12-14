@@ -1,10 +1,10 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const Cart: React.FC = () => {
   return (
     <div>
-      <div className="flex justify-around p-5 font-sans my-14">
+      <div className="flex justify-around p-5 font-sans my-14" id="cartdiv">
         {/* Bag Section */}
         <div className=" w-[650px]">
           <h2 className="mb-5 text-3xl font-semibold">Bag</h2>
@@ -22,15 +22,19 @@ const Cart: React.FC = () => {
               <h4 className="lib">Library Stool Chair</h4>
               <p className="desc">Ashen Slate/Cobalt Bliss</p>
               <div className="flex mx-7 gap-8 text-gray-500">
-                <p>Size: <u className="">L</u></p>
-                <p>Quantity: <u>1</u></p>
+                <p>
+                  Size: <u className="">L</u>
+                </p>
+                <p>
+                  Quantity: <u>1</u>
+                </p>
               </div>
               <div className="cursor-pointer mt-4 text-gray-500 ml-7 flex items-center">
                 <i className="bx bx-heart bx-sm"></i>
                 <button className="ml-7 bg-none border-none ">🗑</button>
               </div>
             </div>
-            <p className='cp'>MRP: $99</p>
+            <p className="cp">MRP: $99</p>
           </div>
 
           {/* Second Item */}
@@ -46,20 +50,24 @@ const Cart: React.FC = () => {
               <h4 className="lib">Library Stool Chair</h4>
               <p className="desc">Ashen Slate/Cobalt Bliss</p>
               <div className="flex mx-7 gap-8 text-gray-500">
-                <p>Size: <u>L</u> </p>
-                <p>Quantity: <u>1</u></p>
+                <p>
+                  Size: <u>L</u>{" "}
+                </p>
+                <p>
+                  Quantity: <u>1</u>
+                </p>
               </div>
               <div className="cursor-pointer mt-4 ml-7 text-gray-500  flex items-center">
                 <i className="bx bx-heart bx-sm"></i>
                 <button className="bg-none border-none ml-7">🗑</button>
               </div>
             </div>
-            <p className='cp'>MRP: $99</p>
+            <p className="cp">MRP: $99</p>
           </div>
         </div>
 
         {/* Summary Section */}
-        <div className="w-[250px]">
+        <div className="w-[250px] summary">
           <h2 className="mb-5 text-3xl font-semibold">Summary</h2>
           <div className="my-5 flex justify-between">
             <p>Subtotal</p>

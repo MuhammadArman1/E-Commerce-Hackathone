@@ -30,7 +30,7 @@ const FAQ: React.FC = () => {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mb-16">
         {faqItems.map((item, index) => (
-          <div key={index} className="bg-[#F7F7F7] rounded-lg cursor-pointer p-6 shadow-sm hover:shadow-md transition-shadow duration-200 w-[648px] h-[170px]">
+          <div key={index} className="bg-[#F7F7F7] rounded-lg cursor-pointer p-6 shadow-sm hover:shadow-md transition-shadow duration-200 w-[648px] h-[170px]" id="faqw">
             <div className="flex justify-between items-center cursor-pointer">
               <h3 className="font-semibold text-lg">{item.question}</h3>
               <span className="text-xl font-bold">+</span>

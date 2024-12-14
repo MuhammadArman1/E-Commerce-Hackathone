@@ -6,9 +6,10 @@ interface NavbarProps {
   
   const MiddleNavbar: React.FC<NavbarProps> = ({ cartCount }) => {
     return (
-      <nav className="flex justify-center items-center h-[84px] gap-[54rem] bg-gray-100  py-2 shadow-sm mn">
+      <nav className="flex justify-center items-center h-[84px] gap-[54rem] bg-gray-100  py-2 shadow-sm"
+      id="mn">
         {/* left */}
-        <div className="mn">
+        <div className="flex items-center">
           <div className=" p-2">
             <Image src={"/Logoicon.png"} alt="logo" width={50} height={50}></Image>
           </div>

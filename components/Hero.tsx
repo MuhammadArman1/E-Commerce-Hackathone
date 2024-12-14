@@ -15,14 +15,14 @@ const Hero: React.FC = () => {
         <Image src={"/BG.png"} alt="chair" width={800} height={900} className='hi'></Image>
     </section>
 
-    <div className='hci flex items-center justify-center gap-20 h-60'>
-      <div className='hci1'>
+    <div className='hci flex items-center justify-center gap-16 h-60'>
+      <div className='hci1 flex gap-16'>
       <Image src={"/Logo1.png"} alt="" width={100} height={100}></Image>
       <Image src={"/Logo2.png"} alt="" width={100} height={100}></Image>
       <Image src={"/Logo 3.png"} alt="" width={100} height={100}></Image>
       <Image src={"/Logo 4.png"} alt="" width={100} height={100}></Image>
       </div>
-      <div className='hci2'>
+      <div className='hci2 flex gap-16'>
       <Image src={"/Logo 5.png"} alt="" width={100} height={100}></Image>
       <Image src={"/Logo6.png"} alt="" width={100} height={100}></Image>
       <Image src={"/Logo7.png"} alt="" width={100} height={100}></Image>

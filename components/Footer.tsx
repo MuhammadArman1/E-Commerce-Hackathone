@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
         </div>
         </div>
         {/* Newsletter Section */}
-        <div>
+        <div id="messform">
           <h4 className="text-lg text-[#9A9CAA] font-semibold mb-4">Newsletter</h4>
           <form className="mb-4 flex w-11/12 gap-4">
             <input
