@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Contact: React.FC = () => {
   return (
-    <div className="px-6 mx-auto">
+    <div className="px-6 mx-auto flex flex-col justify-center items-center">
       {/* Header Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mt-16">Get In Touch With Us</h1>
@@ -14,9 +14,9 @@ const Contact: React.FC = () => {
       </div>
 
       {/* Contact Form and Details */}
-      <div className="flex justify-evenly my-32 px-20">
+      <div className="flex justify-center my-16 gap-72" id='contactdes'>
         {/* Contact Details */}
-        <div className="space-y-8">
+        <div className="space-y-8" id='cd'>
           <div className="flex items-start space-x-4">
             <Image src="/locationicon.png" width={25} height={25} alt="Location Icon" />
             <div>
@@ -100,7 +100,7 @@ const Contact: React.FC = () => {
       </div>
 
       {/* Features Section */}
-      <div className="flex justify-evenly items-center gap-16 w-[1300px] h-[270px] bg-[#F4F4F4] relative left-[120px]">
+      <div className="flex justify-evenly items-center gap-16 w-[1300px] h-[270px] bg-[#F4F4F4]" id='contacticon'>
         <div className="flex flex-row gap-4 items-center">
           <Image src="/trophy 1.png" width={50} height={50} alt="High Quality" />
           <h4 className="text-lg font-semibold mt-2">

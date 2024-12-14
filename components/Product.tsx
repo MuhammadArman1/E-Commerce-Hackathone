@@ -93,14 +93,14 @@ export default function Product() {
 
 
     
-      <div className="h-[754px] bg-[#F3F4F4] mt-32 flex justify-center items-center flex-col">
-        <h1 className="text-5xl font-semibold">Or Subscribe To The Newsletter</h1>
+      <div className="h-[754px] bg-[#F3F4F4] mt-32 flex justify-center items-center flex-col" id="pb">
+        <h1 className="text-5xl font-semibold ph1">Or Subscribe To The Newsletter</h1>
         <div className="flex justify-between flex-row gap-10 h-8 mt-20">
             <input type="text" placeholder="Email Address..." className=" inp w-[643px] px-4 pb-2"/>
             <button className="button px-3 pb-1">SUBMIT</button>
         </div>
-       <h1 className="mt-20 text-5xl font-semibold">Follow Products And Discounts On Instagram</h1>
-       <div className="flex rounded gap-6 items-center justify-center mt-14">
+       <h1 className="mt-20 text-5xl font-semibold ph2">Follow Products And Discounts On Instagram</h1>
+       <div className="flex rounded gap-6 items-center justify-center mt-14" id="pi">
         <Image src={"/product img5.png"} alt="product" width={186} height={186}></Image>
         <Image src={"/product img8.png"} alt="product" width={186} height={186}></Image>
         <Image src={"/product img2.png"} alt="product" width={186} height={186}></Image>
