@@ -20,7 +20,7 @@ export default function Navbar() {
         <Link href="/">Pages</Link>
       </li>
       <li id="contact1">
-        <Link href="/contact">Contact</Link>
+        <Link href="/Contact">Contact</Link>
       </li>
       <li>
         <Link href="/About">About</Link>
