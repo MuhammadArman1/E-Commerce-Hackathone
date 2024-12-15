@@ -50,9 +50,9 @@ li:hover {
   display: none;
 }
 
-@media (max-width: 600px){
+@media (max-width: 601px){
   footer{
-    width: 600px;
+    width: 601px;
   }
   .footer1-des{
     display: flex;
@@ -218,11 +218,21 @@ li:hover {
   }
   #ppimgmain{
     flex-direction: column;
-    padding-right: 90px;
   }
   .ppimg{
     width: 250px;
     height: 250px;
     margin-top: 40px;
+  }
+  #ppageimg{
+    flex-direction: column;
+    padding: 1px;
+  }
+  #ppagef{
+    position: relative;
+    left: 150px;
+  }
+  #featuregap{
+    gap: 90px;
   }
 }

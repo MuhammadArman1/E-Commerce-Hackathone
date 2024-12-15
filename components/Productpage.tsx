@@ -6,7 +6,7 @@ const ProductPage: React.FC = () => {
   return (
     <div className="p-8 font-sans">
       {/* Main Product Section */}
-      <div className="flex justify-center px-60 my-16 gap-32">
+      <div className="flex justify-center px-60 my-16 gap-32" id="ppageimg">
         <Image
           src={"/product img2.png"}
           alt="chair"
@@ -32,8 +32,8 @@ const ProductPage: React.FC = () => {
         </div>
       </div>
 
-      <div className="w-[60vw] relative left-64 flex flex-col justify-center mb-10">
-        <div className="flex justify-between items-center my-10 ">
+      <div className="w-[60vw] relative left-64 flex flex-col justify-center mb-10" id="ppagef">
+        <div className="flex justify-between items-center my-10 " id="featuregap">
           <h2 className="text-3xl font-bold tracking-[4px]">
             FEATURED PRODUCTS
           </h2>
