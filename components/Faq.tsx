@@ -7,11 +7,6 @@ interface FAQItem {
 }
 
 const FAQ: React.FC = () => {
-  // const [activeIndex, setActiveIndex] = useState<number | null>(null);
-
-  // const toggleFAQ = (index: number) => {
-  //   setActiveIndex(activeIndex === index ? null : index);
-  // };
 
   const faqItems: FAQItem[] = [
     { question: "What types of chairs do you offer?", answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem?" },

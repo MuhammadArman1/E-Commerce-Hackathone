@@ -12,7 +12,7 @@ export default function OfferLanguagesBar() {
   };
 
   return (
-    <div className="bg-[#272343] text-white">
+    <div className="bg-[#272343] text-white" id='1'>
       {/* Top Bar */}
       <div className="h-11 flex justify-center items-center gap-[38rem]" id='maindivoffer'>
         <div className="tracking-wide text-sm">&#10003; Free Shipping On All Orders Over $50</div>

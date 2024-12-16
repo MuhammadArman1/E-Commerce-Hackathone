@@ -236,3 +236,57 @@ li:hover {
     gap: 90px;
   }
 }
+@media (max-width: 430px) {
+  #mn {
+    width: 430px;
+  }
+  .hdiv1{
+    width: 350px;
+    height: 400px;
+  }
+  .hh1{
+    font-size: 1.5rem;
+  }
+  .hdes{
+    padding: 1px;
+  }
+  .hci1, .hci2 {
+    justify-content: center;
+    gap: 16px;
+  }
+  #logo1 {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  footer{
+    width: 450px;
+  }
+  .hp-des{
+    width: 230px;
+    position: relative;
+    /* right: 40rem; */
+    background-color: transparent;
+    color: black;
+    bottom: 60px;
+  }
+  #faqw{
+    width: 330px;
+    height: 300px;
+  }
+  #aboutdiv{
+    width: 350px;
+    height: 360px;
+  }
+  .mf{
+    width: 300px;
+  }
+  #contacticon{
+    width: 400px;
+  }
+  .ppw{
+    width: 300px;
+  }
+  .pph1{
+    font-size: 2rem;
+  }
+}

@@ -190,61 +190,69 @@ export default function HomeProduct1() {
       </div>
 
       <section className="mb-16">
-      <h2 className="hph1 text-3xl font-bold mt-16 text-start px-52">Top Categories</h2>
-      <div className="hp1 flex justify-center gap-12 my-20">
-        {/* Wing Chair */}
-        <div className="text-center ">
-          <div className="relative mx-auto w-[350px] h-[350px] ">
-            <Image
-              src={"/Product img8.png"}
-              alt="Wing Chair"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
-            />
-          </div>
-          <div className="hp-des relative bottom-20 bg-black opacity-70 text-white  h-[85px] flex flex-col items-center">
-             <h3 className="text-lg font-semibold mt-4">Wing Chair</h3>
-             <p className="text-gray-400">2,041 Products</p>
-          </div>
-         
-        </div>
-
-        {/* Wooden Chair */}
-        <div className="text-center">
-          <div className="relative w-[350px] h-[350px]  mx-auto">
-            <Image
-              src={"/product img4.png"}
-              alt="Wooden Chair"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
-            />
-          </div>
-          <div className="hp-des relative bottom-20 bg-black opacity-70 text-white h-[85px] flex flex-col items-center">
-             <h3 className="text-lg font-semibold mt-4">Wooden Chair</h3>
-             <p className="text-gray-400">157 Products</p>
-          </div>
-        </div>
-
-        {/* Desk Chair */}
-        <div className="text-center">
-          <div className="relative w-[350px] h-[350px]  mx-auto">
-            <Image
-              src={"/product img9.png"}
-              alt="Desk Chair"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
-            />
-          </div>
-          <div className="hp-des relative bottom-20 bg-black opacity-70 text-white  h-[85px] flex flex-col items-center">
-             <h3 className="text-lg font-semibold mt-4">Desk Chair</h3>
-             <p className="text-gray-400">154 Products</p>
-          </div>
-        </div>
+  <h2 className="hph1 text-3xl font-bold mt-16 text-start px-6 ml-48">
+    Top Categories
+  </h2>
+  <div className="hp1 flex flex-wrap justify-center gap-6 sm:gap-12 my-20 px-4 sm:px-16">
+    {/* Wing Chair */}
+    <div className="text-center">
+      <div className="relative mx-auto w-[250px] h-[250px] sm:w-[350px] sm:h-[350px]">
+        <Image
+          src={"/Product img8.png"}
+          alt="Wing Chair"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-lg"
+        />
       </div>
-    </section>
+      <div className="hp-des relative bottom-8 sm:bottom-20 bg-black opacity-80 text-white h-[60px] sm:h-[85px] flex flex-col items-center">
+        <h3 className="text-base sm:text-lg font-semibold mt-2 sm:mt-4">
+          Wing Chair
+        </h3>
+        <p className="text-gray-400 text-sm">2,041 Products</p>
+      </div>
+    </div>
+
+    {/* Wooden Chair */}
+    <div className="text-center">
+      <div className="relative mx-auto w-[250px] h-[250px] sm:w-[350px] sm:h-[350px]">
+        <Image
+          src={"/product img4.png"}
+          alt="Wooden Chair"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-lg"
+        />
+      </div>
+      <div className="hp-des relative bottom-8 sm:bottom-20 bg-black opacity-80 text-white h-[60px] sm:h-[85px] flex flex-col items-center">
+        <h3 className="text-base sm:text-lg font-semibold mt-2 sm:mt-4">
+          Wooden Chair
+        </h3>
+        <p className="text-gray-400 text-sm">157 Products</p>
+      </div>
+    </div>
+
+    {/* Desk Chair */}
+    <div className="text-center">
+      <div className="relative mx-auto w-[250px] h-[250px] sm:w-[350px] sm:h-[350px]">
+        <Image
+          src={"/product img9.png"}
+          alt="Desk Chair"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-lg"
+        />
+      </div>
+      <div className="hp-des relative bottom-8 sm:bottom-20 bg-black opacity-80 text-white h-[60px] sm:h-[85px] flex flex-col items-center">
+        <h3 className="text-base sm:text-lg font-semibold mt-2 sm:mt-4">
+          Desk Chair
+        </h3>
+        <p className="text-gray-400 text-sm">154 Products</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Explore New Styles Section */}
       <section className="hpi1 mb-16">

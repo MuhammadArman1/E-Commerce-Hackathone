@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
 
         {/* Contact Form */}
         <div>
-          <form className="space-y-6 gap-6">
+          <form className="space-y-6 gap-6 mf">
             <div>
               <label className="block text-gray-700 font-medium mb-4" htmlFor="name">
                 Your name

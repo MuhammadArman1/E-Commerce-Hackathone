@@ -13,8 +13,8 @@ const ProductPage: React.FC = () => {
           width={675}
           height={607}
         ></Image>
-        <div className=" pl-8 w-[521px]">
-          <h1 className="text-6xl font-bold mb-4">
+        <div className=" pl-8 w-[521px] ppw">
+          <h1 className="text-6xl font-bold mb-4 pph1">
             Library Stool <br /> Chair
           </h1>
           <button className="px-5 py-2 bg-[#4EA0AE] text-white rounded-full hover:bg-teal-600 transition my-8">
