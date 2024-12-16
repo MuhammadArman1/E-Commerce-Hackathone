@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         <button className="bg-[#58B4BF] text-white py-4 px-8 rounded-xl mt-8 text-lg font-medium hover:bg-teal-600 transition">Shop Now →</button>
       </div>
       {/* Image Section */}
-        <Image src={"/BG.png"} alt="chair" width={800} height={900} className='hi sm:hidden'></Image>
+        <Image src={"/BG.png"} alt="chair" width={800} height={900} className='hi'></Image>
     </section>
 
     <div className="hci flex items-center gap-20 h-auto p-4">

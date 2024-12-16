@@ -7,7 +7,7 @@ interface NavbarProps {
 const MiddleNavbar: React.FC<NavbarProps> = ({ cartCount }) => {
   return (
     <nav
-    className="flex justify-center gap-[58rem] items-center px-4 py-2 bg-gray-100 shadow-sm flex-wrap"
+    className="flex justify-center gap-[58rem] items-center h-20 px-4 py-2 bg-gray-100 shadow-sm flex-wrap"
     id="mn"
   >
     {/* Left Section */}
@@ -16,12 +16,12 @@ const MiddleNavbar: React.FC<NavbarProps> = ({ cartCount }) => {
         <Image
           src={"/Logoicon.png"}
           alt="logo"
-          width={40} // Adjust for smaller screen
-          height={40}
+          width={50} 
+          height={50}
         />
       </div>
       <Link href="/">
-        <span className="text-xl font-semibold text-black whitespace-nowrap">
+        <span className="text-2xl font-semibold text-black whitespace-nowrap">
           Comforty
         </span>
       </Link>
